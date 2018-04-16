@@ -5,9 +5,8 @@ registerFragment(/* GraphQL */`
     _id
     createdAt
     name
-    # uncomment on #Step12
-    # user{
-    #  displayName
-    # }
+    user{
+      displayName
+    }
   }
 `);

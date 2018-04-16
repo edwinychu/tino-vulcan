@@ -27,13 +27,12 @@ Also of note are the \`viewableBy\`, \`insertableBy\`, and \`editableBy\` proper
 Note that the first account you create in any Vulcan app automatically belongs to the \`admins\` group. But more on that later. For now, onwards to the next step!
 `
 
-// uncomment the component's children on #Step5:
 
 const Step5 = () => (
   <Components.Step step={5} text={text} after={after}>
-    {/*
+    
     <Components.Schema/>
-    */}
+   
   </Components.Step>
 );
 
