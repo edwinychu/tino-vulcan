@@ -10,7 +10,7 @@ const Header = (props) => {
   const tagline = getSetting('tagline');
 
   return (
-    <div className="header-wrapper">
+    <div> 
 
       <header className="header">
 
@@ -34,6 +34,7 @@ const Header = (props) => {
         </div>
 
       </header>
+      <hr/>
     </div>
   )
 }

@@ -68,7 +68,7 @@ class CategoriesList extends PureComponent {
 
     return (
       <div>
-        <DropdownButton
+        {/* <DropdownButton
           bsStyle="default"
           className="categories-list btn-secondary"
           title={<FormattedMessage id="categories"/>}
@@ -99,7 +99,7 @@ class CategoriesList extends PureComponent {
               </ModalTrigger>
             </div>
           </Components.ShowIf>
-        </DropdownButton>
+        </DropdownButton> */}
 
       </div>
     )

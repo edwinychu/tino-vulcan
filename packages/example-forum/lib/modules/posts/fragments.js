@@ -21,10 +21,6 @@ registerFragment(/* GraphQL */`
     }
     # embedly
     thumbnailUrl
-    # categories
-    categories {
-      ...CategoriesMinimumInfo
-    }
     # comments
     commentCount
     commenters {

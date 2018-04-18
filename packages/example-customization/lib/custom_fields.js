@@ -16,15 +16,6 @@ Posts.addField(
       insertableBy: ['members'],
       editableBy: ['members'],
       viewableBy: ['members'],
-      options: function () { // options for the select form control
-        return [
-          {value: "white", label: "White"},
-          {value: "yellow", label: "Yellow"},
-          {value: "blue", label: "Blue"},
-          {value: "red", label: "Red"},
-          {value: "green", label: "Green"}
-        ];
-      }
     }
   }
 );

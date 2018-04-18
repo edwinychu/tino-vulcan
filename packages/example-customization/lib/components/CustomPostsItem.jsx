@@ -35,7 +35,7 @@ class CustomPostsItem extends getRawComponent('PostsItem') {
             <Link to={Posts.getLink(post)} className="posts-item-title-link" target={Posts.getLinkTarget(post)}>
               {post.title}
             </Link>
-            {this.renderCategories()}
+            {/* {this.renderCategories()} */}
           </h3>
 
           <div className="posts-item-meta">

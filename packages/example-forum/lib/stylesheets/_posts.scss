@@ -30,7 +30,7 @@
   @include small{
     margin-bottom: $vmargin;
     .btn-group{
-      margin-right: 0;
+      margin-right: 0px;
       width: 100%;
     }
     .dropdown-toggle{
@@ -53,8 +53,9 @@
 
 .posts-list-header{
   @include medium-large{
-    .search-form, .posts-list-header-categories button, .posts-views button{
+     .posts-list-header-categories button, .posts-views button{
       width: 160px;
+      margin-right: 830px;
     }
   }
 }

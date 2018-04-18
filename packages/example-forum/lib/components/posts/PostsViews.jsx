@@ -10,14 +10,11 @@ import Users from 'meteor/vulcan:users';
 
 const PostsViews = (props, context) => {
 
-  let views = ['top', 'new', 'best'];
-  const adminViews = ['pending', 'rejected', 'scheduled'];
-
-  if (Users.canDo(props.currentUser, 'posts.edit.all')) {
-    views = views.concat(adminViews);
-  }
+  let views = ['top', 'new', 'ongoing', 'ended'];
 
   const query = _.clone(props.router.location.query);
+  
+  
 
   return (
     <div className="posts-views">
@@ -34,11 +31,6 @@ const PostsViews = (props, context) => {
             </MenuItem>
           </LinkContainer>
         )}
-        <LinkContainer to="/daily" className="dropdown-item">
-          <MenuItem className="bar">
-            <FormattedMessage id="posts.daily"/>
-          </MenuItem>
-        </LinkContainer>
       </DropdownButton>
     </div>
   )
