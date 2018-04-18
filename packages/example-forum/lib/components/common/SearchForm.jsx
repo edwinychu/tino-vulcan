@@ -63,7 +63,7 @@ class SearchForm extends Component{
           <Input
             name="searchQuery"
             value={this.state.search}
-            placeholder={this.context.intl.formatMessage({id: "posts.search"})}
+            placeholder="Search a stock"
             type="text"
             layout="elementOnly"
           />
